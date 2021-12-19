@@ -1,0 +1,189 @@
+body, html{
+    height: 100%;
+    margin: 0;
+}
+main{
+    margin: 0;
+}
+/**** Header styling ****/
+.bg{
+	background-image: url("images/backround-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+h1, p{
+    text-align: center;
+}	
+h1{
+    Font-Family: 'Raleway', Sans-Serif;
+    Font-Size: 45px;
+    color: #294985;
+    padding-top: 60px;
+}
+p{
+    Font-Family: 'Love Light', cursive;
+    Font-Size: 50px;
+    color:rgb(32, 153, 251);
+}
+.quote{
+    padding-top: 70px;
+}
+h4{
+    text-align: center;
+    Font-Family: 'Raleway', Sans-Serif;
+    color: #203968;
+    padding-top: 10px;
+}
+/**** Input form style ****/
+.search-form{
+    padding: 20px;
+}
+input, button {
+    Font-Family: 'Raleway', Sans-Serif;
+    color: #02ffc8;
+    font-size: 20px;
+    display:block;
+    margin: 0 auto; 
+    border: 0;
+    width: 220px;
+    }
+input{
+    margin-top: 50px;
+    padding: 5px;
+    height: 30px; 
+    color: #1d313c;
+}
+button{
+    width: 230px;
+    height: 33px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/**** Weather result style ****/
+.weather-result{
+    background-color: rgba(108, 208, 238, 0.1);
+}
+.weather {
+    max-width: 80%;
+    font-size: 33px;
+    text-align: center;
+    margin: 30px auto;  
+}
+.row{
+    display:flex;    
+}
+.column{
+    padding-bottom: 10px;
+}
+.left, 
+.right {
+    width: 50%;
+}
+.right{
+    padding-top: 15px;
+    text-align: left;
+}
+.city-name h2{
+    Font-Family: 'Raleway', Sans-Serif;
+    padding-top:10px;
+    font-size: 35px;
+    font-weight: 600;
+}
+.city-temp span{
+    font-size: 12px;
+}
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 360px){
+   h1{
+        padding-top: 20px;
+        font-size: 35px;
+    } 
+    p{
+        font-size: 18px;
+    }   
+    .left, 
+	.right {
+    width: 100%;
+}
+}
+.weather-result p{
+	font-size: 17px;
+    color: #2f49be;
+    line-height: 1.5;
+}
+button:hover,
+a:hover{
+    cursor: pointer;
+}
+
+/**** Hike results style ****/
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;  
+}
+.block {
+    background-color: rgba(109, 111, 255, 0.1);
+    border: 1px solid #91c8fc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+    margin: 5px;
+}
+.trail-data img{
+    width: 100%;
+    height:200px;
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 10px;
+}
+.trail-data p,a{
+    color: #55c0f1;
+    font-size: 15px;
+    line-height: 1.2; 
+    text-align: left;
+}
+.trail-data h2{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.trail-data h3 a{
+    Font-Family: 'Julius Sans One', Sans-Serif;
+    text-decoration:none;
+    color: #58a4fa;
+    font-size: 16px;
+    font-weight: 800;
+}
+.trail-data h3 a:hover{
+	font-size:18px;
+}
+.error-msg{
+	margin-top: 20px;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+/**** Footer style ****/
+footer {
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 50px;
+    padding: 5px;
+    text-align: center; 
+}
+footer p{
+    font-size: 15px;
+    color: #4dc1f6;
+}
+footer img{
+    height: 30px;
+    width: 30px;
+}
+
